@@ -7,7 +7,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
 
 
-#Objective:
+#OBJECTIVE:
 As the sensitive data is masked with PCA components, let's try to figure out under which component or amount the defaults happens the most.
 
 As it is PCA, visualizations are not easy. Let's reduce the dimensions to 2D using T-SNE and see how visuals look. Visuals with hexagon has been updated. So what is hexagon?
