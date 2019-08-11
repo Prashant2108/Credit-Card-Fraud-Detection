@@ -7,9 +7,8 @@ It contains only numerical input variables which are the result of a PCA transfo
 Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
 
 
-###OBJECTIVE:
-As the sensitive data is masked with PCA components, let's try to figure out under which component or amount the defaults happens the most.
 
-As it is PCA, visualizations are not easy. Let's reduce the dimensions to 2D using T-SNE and see how visuals look. Visuals with hexagon has been updated. So what is hexagon?
+###Observations: 
+The data set is highly skewed, consisting of 492 frauds in a total of 284,807 observations. This resulted in only 0.172% fraud cases. This skewed set is justified by the low number of fraudulent transactions. The dataset consists of numerical values from the 28 ‘Principal Component Analysis (PCA)’ transformed features, namely V1 to V28. Furthermore, there is no metadata about the original features provided, so pre-analysis or feature study could not be done. The ‘Time’ and ‘Amount’ features are not transformed data. There is no missing value in the dataset.
 
-The hexagons show the local density of fraudulent transactions (white points). Red colors mean high density of fraud (typically > 75% of points included in the hexagon) whereas blueish colors are associated with a small fraction of fraud.
+
